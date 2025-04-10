@@ -16,7 +16,7 @@ page 50112 "Statements Card"
 				{
 					ApplicationArea = All;
 					Caption = 'Difficulty';
-					ToolTip = 'Select the Difficulty.';
+					ToolTip = 'Please Enter the Difficulty.';
 					trigger OnValidate()
 					begin
 						GetSuggestion();
@@ -30,14 +30,14 @@ page 50112 "Statements Card"
 				{
 					ApplicationArea = All;
 					Caption = 'Suggestion';
-					ToolTip = 'Suggestion.';
+					ToolTip = 'This is the Suggestion';
 					Editable = false;
 				}
 				field(Level; Level)
 				{
 					ApplicationArea = All;
 					Caption = 'Level';
-					ToolTip = 'Level.';
+					ToolTip = 'This is the Level.';
 					Editable = false;
 				}
 			}
